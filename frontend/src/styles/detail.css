@@ -1,0 +1,24 @@
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.slot {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.slot button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.slot button:disabled {
+  background: #aaa;
+}
